@@ -1,0 +1,8 @@
+category: Audio
+requires: libvo-amrwbenc0
+external-source: vo-amrwbenc
+sdesc: "AMR-WB encoder library (development)"
+ldesc: "This library contains an encoder implementation of the Adaptive 
+Multi Rate Wideband (AMR-WB) audio codec. The library is based on a 
+codec implementation by VisualOn as part of the Stagefright framework 
+from the Google Android project."

@@ -1,0 +1,10 @@
+DESCRIPTION="AMR-WB encoder library"
+HOMEPAGE="http://sourceforge.net/projects/opencore-amr/"
+SRC_URI="mirror://sourceforge/opencore-amr/${P}.tar.gz"
+
+PKG_NAMES="${PN} lib${PN}0 lib${PN}-devel"
+vo_amrwbenc_CONTENTS="usr/bin/*.exe usr/share/doc/"
+libvo_amrwbenc0_CONTENTS="usr/bin/cygvo-amrwbenc-0.dll"
+libvo_amrwbenc_devel_CONTENTS="usr/include/ usr/lib/"
+
+CYGCONF_ARGS="--enable-example"
