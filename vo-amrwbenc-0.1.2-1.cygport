@@ -8,3 +8,5 @@ libvo_amrwbenc0_CONTENTS="usr/bin/cygvo-amrwbenc-0.dll"
 libvo_amrwbenc_devel_CONTENTS="usr/include/ usr/lib/"
 
 CYGCONF_ARGS="--enable-example"
+
+KEEP_LA_FILES="none"
