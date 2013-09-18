@@ -1,0 +1,22 @@
+NAME="vo-amrwbenc"
+VERSION=0.1.2
+RELEASE=1
+CATEGORY="Libs"
+SUMMARY="AMR-WB encoder library"
+DESCRIPTION="This library contains an encoder implementation of the Adaptive
+Multi Rate Wideband (AMR-WB) audio codec. The library is based on a codec
+implementation by VisualOn as part of the Stagefright framework from the
+Google Android project."
+HOMEPAGE="http://sourceforge.net/projects/opencore-amr/"
+SRC_URI="mirror://sourceforge/opencore-amr/${NAME}-${VERSION}.tar.gz"
+
+PKG_NAMES="${NAME} lib${NAME}0 lib${NAME}-devel"
+vo_amrwbenc_CATEGORY="Audio"
+vo_amrwbenc_SUMMARY=${SUMMARY/library/utility}
+vo_amrwbenc_CONTENTS="usr/bin/*.exe usr/share/doc/"
+libvo_amrwbenc0_CONTENTS="usr/bin/cygvo-amrwbenc-0.dll"
+libvo_amrwbenc_devel_CONTENTS="usr/include/ usr/lib/"
+
+CYGCONF_ARGS="--enable-example"
+
+KEEP_LA_FILES="none"
