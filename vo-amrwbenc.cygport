@@ -1,5 +1,5 @@
 NAME="vo-amrwbenc"
-VERSION=0.1.2
+VERSION=0.1.3
 RELEASE=1
 CATEGORY="Libs"
 SUMMARY="AMR-WB encoder library"
